@@ -286,7 +286,7 @@ function psm_curl_get($href, $header = false, $body = true, $timeout = null, $ad
 	curl_setopt($ch, CURLOPT_ENCODING, '');
 	curl_setopt($ch, CURLOPT_URL, $href);
 	if($add_agent) {
-		curl_setopt ($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; phpservermon/'.PSM_VERSION.'; +http://www.phpservermonitor.org)');
+		curl_setopt ($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; phpservermon/'.PSM_VERSION.'; +http://www.ackmanndickenson.com)');
 	}
 
 	$result = curl_exec($ch);
