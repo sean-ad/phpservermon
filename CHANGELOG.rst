@@ -3,10 +3,44 @@ Changelog
 
 
 not yet released
-----------------
+----------------------------------
+
+
+
+v3.2.0 not yet released
+----------------------------------
+
+* #170: Implement Nexmo SMS.
+* #161: Added Swedish translation.
+* #185: Added Estonian translation.
+* #210: Added Finnish translation.
+* #201: Added Persian translation.
+* #195: Updated Spanish translation.
+* #169: Increased server ip char limit to 500.
+* #164: Added support for FreeVoipDeal SMS gateway <http://www.freevoipdeal.com>.
+* #181: Added blank index files to prevent directory listing.
+* #237: Adding CSRF protection.
+* #287: Default language - English
+* #286: Add popular ports drop dowwn
+* #269: Added Slovenian language 
+* #96:  Authentication for website checks
+
+v3.1.1 (released November 6, 2014)
+----------------------------------
 
 * #130: Added Czech translation.
+* #138: Added Polish translation.
+* #148: Added Turkish translation.
 * #124: Updated Bulgarian translation.
+* #132: Updated German translation.
+* #134: Updated French translation.
+* #144: Updated Brazilian translation.
+* #146: Updated Russian translation.
+* #147: Updated Spanish translation.
+* #128: Added SSL/TLS option for SMTP config.
+* #131: Allow URL and timeout to be passed as argument to the cronjob.
+* #135: Uptime percentage above 100%.
+* #151: Links in install results were stripped automatically from template.
 
 
 v3.1.0 (released August 7, 2014)

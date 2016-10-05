@@ -18,8 +18,8 @@
  * along with PHP Server Monitor.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package     phpservermon
- * @author      Pepijn Over <pep@neanderthal-technology.com>
- * @copyright   Copyright (c) 2008-2014 Pepijn Over <pep@neanderthal-technology.com>
+ * @author      Pepijn Over <pep@peplab.net>
+ * @copyright   Copyright (c) 2008-2015 Pepijn Over <pep@peplab.net>
  * @license     http://www.gnu.org/licenses/gpl.txt GNU GPL v3
  * @version     Release: @package_version@
  * @link        http://www.phpservermonitor.org/
@@ -28,9 +28,11 @@
 $sm_lang = array(
 	'name' => 'Nederlands - Dutch',
 	'locale' => array('nl_NL.UTF-8', 'nl_NL', 'dutch'),
+	'locale_tag' => 'nl',
+	'locale_dir' => 'ltr',
 	'system' => array(
 		'title' => 'Server Monitor',
-		'install' => 'Intalleren',
+		'install' => 'Installeren',
 		'action' => 'Actie',
 		'save' => 'Opslaan',
 		'edit' => 'Wijzig',
@@ -180,6 +182,8 @@ $sm_lang = array(
 		'email_smtp' => 'SMTP gebruiken',
 		'email_smtp_host' => 'SMTP host',
 		'email_smtp_port' => 'SMTP poort',
+		'email_smtp_security' => 'SMTP beveiliging',
+		'email_smtp_security_none' => 'Geen',
 		'email_smtp_username' => 'SMTP gebruikersnaam',
 		'email_smtp_password' => 'SMTP wachtwoord',
 		'email_smtp_noauth' => 'Laat leeg voor geen authenticatie',
@@ -192,7 +196,10 @@ $sm_lang = array(
 		'sms_gateway_clickatell' => 'Clickatell',
         'sms_gateway_textmarketer' => 'Textmarketer',
 		'sms_gateway_smsglobal' => 'SMSGlobal',
+		'sms_gateway_octopush' => 'Octopush',
 		'sms_gateway_smsit' => 'Smsit',
+		'sms_gateway_freevoipdeal' => 'FreeVoipDeal',
+		'sms_gateway_nexmo' => 'Nexmo',
 		'sms_gateway_username' => 'Gateway gebruikersnaam',
 		'sms_gateway_password' => 'Gateway wachtwoord',
 		'sms_from' => 'Telefoonnummer afzender',
@@ -292,6 +299,6 @@ $sm_lang = array(
 	),
 	'error' => array(
 		'401_unauthorized' => 'Unauthorized',
-		'401_unauthorized_description' => 'U heeft niet de juiste bevoegdheden om deze pagina te bekijken.',
+		'401_unauthorized_description' => 'Je hebt niet de juiste bevoegdheden om deze pagina te bekijken.',
 	),
 );
